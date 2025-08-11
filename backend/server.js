@@ -14,7 +14,7 @@ app.use(express.json());
 
 // CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:5173', // This should be your frontend URL
+  origin: 'https://shiva-l-ink.vercel.app', // This should be your frontend URL
   optionsSuccessStatus: 200 // For legacy browser support
 };
 app.use(cors(corsOptions));
